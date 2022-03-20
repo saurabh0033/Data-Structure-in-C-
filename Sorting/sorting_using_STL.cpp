@@ -6,7 +6,7 @@ int main()
 {
 
 
-// C++ program to sort a vector decreasing order.
+// C++ program to sort a vector increasing order.
     vector<int> v{ 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
 
     sort(v.begin(), v.end());
@@ -21,7 +21,7 @@ int main()
 
 
 
-    //C++ program to sort a vector increasing order.
+    //C++ program to sort a vector decreasing order.
 
     vector<int> w{ 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
 
