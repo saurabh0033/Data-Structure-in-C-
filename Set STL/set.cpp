@@ -27,4 +27,15 @@ int main(){
 
     //Is Empty
     cout<< "Is Empty->"<< s.empty()<<endl;
+
+    //erase
+    set<int>::iterator it=s.begin();
+    it++;
+    it++;
+    it++;
+    s.erase(it);
+    for(int j:s){
+        cout<<j<<" ";
+    }
+    cout<<endl;
 }
